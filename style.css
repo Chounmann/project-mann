@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clear{
+    clear: both;
+}
+header{
+    width: 1000px;
+    height: 80px;
+    background-color: blueviolet;
+    float: left;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    background-color:transparent;
+    margin: 15px 0px;
+    float: left;
+}
+.row{
+    width: 1000px;
+    height: 500px;
+    float: left;
+}
+.row .col-2{
+    width: 250px;
+    height:100%;
+    background-color: rgb(60, 116, 116);
+    float: left;
+}
+.row .col-8{
+    width: 470px;
+    height: 100%;
+    background-color:teal;
+    float: left;
+    margin: 0px 15px;
+}
+.row .col-2 .item{
+    width: 89%;
+    height: 146.6px;
+    background-color: red;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.row .col-2 .item-2{
+    width: 89%;
+    margin-left: 15px;
+}
+.row .col-2 .height{
+    width: 89%;
+    height: 310px;
+}
+.row .col-8 .item-1{
+    width: 65%;
+    height: 110px;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+.row .col-8 .item-2{
+    width: 25%;
+    height: 110px;
+    background-color: red;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.row .col-8 .item-3{
+    width: 29%;
+    height: 110px;
+    background-color: red;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.row .col-8 .card{
+    width: 45%;
+    height: 219px;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+footer{
+    width: 1000px;
+    height: 80px;
+    background-color: blueviolet;
+    float: left;
+}
